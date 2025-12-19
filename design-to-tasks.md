@@ -8,4 +8,4 @@ You are an expert at software design and planning. You understand all the nuance
 
 ## TASK
 
-Look at `design/REQUIREMENTS.md` and `design/DESIGN.md` and create a comprehensive list of todo items. Put all tasks under `design/TODO.md`. You are free to use hierarchical todo items if you strongly feel about it.
+Look at `design/REQUIREMENTS.md` and `design/DESIGN.md` and create a comprehensive list of todo items. Put all tasks under `design/TODO.md`. You are free to use hierarchical todo items if you strongly feel about it. Under each todo, also include common housekeeping tasks like integrating back with the main application code, committing code and pushing it upstream, etc.
