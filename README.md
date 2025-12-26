@@ -8,49 +8,57 @@ These commands provide structured prompts for common software development workfl
 
 ## Commands
 
-### Code Generation
+### Code Generation (`code/`)
 
 | Command | Description |
 |---------|-------------|
-| `code/go.md` | TDD-driven Go development with comprehensive design principles |
-| `code/go-refactor.md` | Condensed Go refactoring guide |
+| `go.md` | TDD-driven Go development with comprehensive design principles |
+| `go-refactor.md` | Condensed Go refactoring guide |
 
-### Project Initialization
-
-| Command | Description |
-|---------|-------------|
-| `init/go.md` | Initialize a new Go project with git, README, and .gitignore |
-| `init/python.md` | Initialize a Python project with virtual environment setup |
-
-### Design & Planning
+### Project Initialization (`init/`)
 
 | Command | Description |
 |---------|-------------|
+| `go.md` | Initialize a new Go project with git, README, and .gitignore |
+| `python.md` | Initialize a Python project with virtual environment setup |
+
+### Design & Planning (`design/`)
+
+| Command | Description |
+|---------|-------------|
+| `karya.md` | Full-stack software engineering workflow using note/todo/zet MCPs |
 | `requirement-to-design.md` | Convert requirements to detailed design using risk-based analysis |
 | `design-to-tasks.md` | Transform design documents into prioritized todo items |
+
+### Documentation (`docs/`)
+
+| Command | Description |
+|---------|-------------|
+| `zet.md` | Generate zettelkasten notes from blog posts/articles |
+| `zet-fullsite.md` | Generate hierarchical zettelkasten from entire documentation sites |
+
+### Testing (`tests/`)
+
+| Command | Description |
+|---------|-------------|
+| `qa.md` | Generate comprehensive system test cases |
+
+### Other
+
+| Command | Description |
+|---------|-------------|
 | `crit.md` | Critical review template with SOLID principles focus |
-
-### Documentation
-
-| Command | Description |
-|---------|-------------|
-| `docs/zet.md` | Generate zettelkasten notes from blog posts/articles |
-
-### Testing
-
-| Command | Description |
-|---------|-------------|
-| `tests/qa.md` | Generate comprehensive system test cases |
-
-### Git
-
-| Command | Description |
-|---------|-------------|
 | `commit.md` | Smart commit workflow with logical grouping |
 
 ## Usage
 
 Place these files in `~/.config/crush/commands/` and invoke them with Crush:
+
+```bash
+crush /code/go
+crush /init/python
+crush /design/karya
+```
 
 ## License
 
