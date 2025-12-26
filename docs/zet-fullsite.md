@@ -43,7 +43,7 @@ You need to do two things -
       * **<key>**: <1-2 lines of text for key point>
       * ...
 
-      ## References
+      ## Related
 
       * [<title of zettel>](../<zettel ID>/README.md)
       * [<title of zettel>](../<zettel ID>/README.md)

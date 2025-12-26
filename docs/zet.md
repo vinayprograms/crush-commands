@@ -22,14 +22,14 @@ You need to do two things -
     * **<key>**: <1-2 lines of text for key point>
     * ...
 
-    ## References
+    ## Related
 
     * [<title of zettel>](../<zettel ID>/README.md)
     * [<title of zettel>](../<zettel ID>/README.md)
     * ...
     ```
 4. Use the `zet` MCP to write this new zettel to my zettelkasten repository.
-5. If you think the other zettels that have been referred to in the current one also need to be linked back to the current one, make sure you update the `References` section of those zettels and use the `zet` MCP to push updates to those too.
+5. If you think the other zettels that have been referred to in the current one also need to be linked back to the current one, make sure you update the `Related` section of those zettels and use the `zet` MCP to push updates to those too.
 
 ## TASK
 
